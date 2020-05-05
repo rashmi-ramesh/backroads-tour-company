@@ -529,7 +529,8 @@ CSS Variables
 
 .tour-image {
   height: 15rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .tour-img-container {
@@ -649,6 +650,22 @@ CSS Variables
   line-height: 1.5;
 }
 
+.form-control::-webkit-input-placeholder {
+  font-family: inherit;
+}
+
+.form-control::-moz-placeholder {
+  font-family: inherit;
+}
+
+.form-control:-ms-input-placeholder {
+  font-family: inherit;
+}
+
+.form-control::-ms-input-placeholder {
+  font-family: inherit;
+}
+
 .form-control::placeholder {
   font-family: inherit;
 }
@@ -722,7 +739,8 @@ CSS Variables
 
 .gallery-img {
   height: 17rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: var(--transition);
 
 }
